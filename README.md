@@ -23,7 +23,7 @@ jq -c '.charges[]' multicharge.json > ext.charges
 The `ext.charges` file now contains the atomic charges for each atom in the order of the structure file.
 
 ### Basis set setup and Input generation
-For an automatic setup of the basis set, the `q-vSZP` software (https://github.com/grimme-lab/qvSZP) can be utilized.
+For an automatic setup of the basis set and generation of an ORCA input file, the `q-vSZP` software (https://github.com/grimme-lab/qvSZP) can be utilized.
 Example program command-line call:
 
 ```
