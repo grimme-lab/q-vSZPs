@@ -1,7 +1,7 @@
 # qvSZPs
-Repository providing the basis set files for the q-vSZPs basis set and the non-adaptive qavg-vSZPs variant.
+Repository providing the basis set files for the q-vSZPs basis set and the non-adaptive q<sub>avg</sub>-vSZPs variant.
 The basis set files are located in `q-vSZPs_basis/` with the q-vSZPs being provided in TURBOMOLE format together witht the required ECP file.
-The qavg-vSZPs basis set is provided in TURBOMOLE and ORCA format.
+The q<sub>avg</sub>-vSZPs basis set is provided in TURBOMOLE and ORCA format.
 
 ## Automatic input file generation for the q-vSZPs
 
@@ -10,7 +10,7 @@ To compute the atomic charges needed for the basis setup, the multicharge softwa
 The EEQ_BC charges as used in the orignal publication [...] can be reproduced using the `eeqbc2026-q-vSZPs-paper` branch under (https://github.com/benbaed/multicharge-q-vSZPs-paper)
 
 
-For a given file `xyz` format, the EEQ_BC charges can be computed using
+For a given file `xyz` format, the EEQ<sub>BC</sub> charges can be computed using
 ```
 multicharge -m eeqbc -json struc.xyz
 ```
@@ -29,12 +29,15 @@ Example program command-line call:
 ```
 qvSZP --struc struc.xyz --bfile q-vszps --efile ecpq --cm extonlyq --v --outname orca --conv TightSCF --defgrid 3 --d4par 1.0 1.1710 0.3478 5.5828 1.50
 ```
-Here, the `--cm extonlyq` option instructs the code to read the external charge file named `ext.charges` (see previous step)
+Here, the `--cm extonlyq` option instructs the code to read the external charge file named `ext.charges` (see previous step) <br>
 Alternatively other charge models (e.g. CEH charge model) can be utilized. 
 `--bfile` and `--efile` provide the locations of the basis set and ecp files respectively (in TURBOMOLE format)
 For an overview of the other options use `--help`
 
 ## Citation
+
+Benedikt Bädorf, Marcel Müller, Thomas Froitzheim and Stefan Grimme, *J. Chem. Phys.*, **2025**, TBD
+chemrxiv: [TBD](TBD)
 
 For the q-vSZP basis set:
 Marcel Müller, Andreas Hansen and Stefan Grimme, *J. Chem. Phys.*, **2023**, 159, 164108.
