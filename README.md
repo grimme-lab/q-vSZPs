@@ -16,7 +16,7 @@ multicharge -m eeqbc -json struc.xyz
 ```
 (the `coord` format is also accepted, see `mctc-lib` (https://github.com/grimme-lab/mctc-lib) for conversion from other formats)
 
-For full automatation, the JSON formatter provided under (https://stedolan.github.io/jq) was then used to write the `ext.charges` file
+For full automatation, the JSON formatter provided under (https://stedolan.github.io/jq) can be used to write the `ext.charges` file
 ```
 jq -c '.charges[]' multicharge.json > ext.charges
 ```
