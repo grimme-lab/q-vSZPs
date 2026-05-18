@@ -7,7 +7,7 @@ The q<sub>avg</sub>-vSZPs basis set is provided in TURBOMOLE and ORCA format.
 
 ### Precomputed atomic charges
 To compute the atomic charges needed for the basis setup, the multicharge software can be used (https://github.com/thfroitzheim/multicharge)
-The EEQ_BC charges as used in the orignal publication [...] can be reproduced using the `eeqbc2026-q-vSZPs-paper` branch under (https://github.com/benbaed/multicharge-q-vSZPs-paper)
+The EEQ_BC charges as used in the orignal publication [TBD] can be reproduced using the `eeqbc2026-q-vSZPs-paper` branch under (https://github.com/benbaed/multicharge-q-vSZPs-paper)
 
 
 For a given file `xyz` format, the EEQ<sub>BC</sub> charges can be computed using
@@ -44,12 +44,10 @@ Marcel Müller, Andreas Hansen and Stefan Grimme, *J. Chem. Phys.*, **2023**, 15
 DOI: [10.1063/5.0172373](https://doi.org/10.1063/5.0172373)
 
 For the bond capacity electronegativity equilibration charge model (EEQ<sub>BC</sub>): 
-
 Thomas Froitzheim, Marcel Müller, Andreas Hansen, and Stefan Grimme, *J. Chem. Phys.*, **2025**, 162, 214109.
 DOI: [10.1039/10.1063/5.0268978](https://doi.org/10.1063/5.0268978)
 chemrxiv: [10.26434/chemrxiv-2025-1nxwg](https://doi.org/10.26434/chemrxiv-2025-1nxwg)
 
 For the charge extended Hückel model (CEH): 
-
 Marcel Müller, Thomas Froitzheim, Andreas Hansen, and Stefan Grimme, *J. Phys. Chem. A* **2024**, 128, 49, 10723–10736
 DOI: [10.1063/5.0268978](https://doi.org/10.1021/acs.jpca.4c06989)
