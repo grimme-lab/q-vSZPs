@@ -41,8 +41,8 @@ For an overview of the other options use `--help`
 
 ## Citation
 
-Benedikt Bädorf, Marcel Müller, Thomas Froitzheim and Stefan Grimme, *J. Chem. Phys.*, **2025**, TBD <br>
-chemrxiv: [TBD](TBD) 
+Benedikt Bädorf, Marcel Müller, Thomas Froitzheim and Stefan Grimme, **2026** <br>
+chemrxiv: [10.26434/chemrxiv.15003662/v1](https://chemrxiv.org/doi/full/10.26434/chemrxiv.15003662/v1)
 
 For the q-vSZP basis set: <br>
 Marcel Müller, Andreas Hansen and Stefan Grimme, *J. Chem. Phys.*, **2023**, 159, 164108. <br>
