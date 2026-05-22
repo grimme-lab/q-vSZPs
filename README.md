@@ -27,13 +27,13 @@ For an automatic setup of the basis set and generation of an ORCA input file, th
 Example program command-line call:
 
 ```
-qvSZP --struc struc.xyz --bfile q-vszps --efile ecpq --cm extonlyq --v --outname orca --conv TightSCF --defgrid 3 --d4par 1.0 1.1710 0.3478 5.5828 1.50
+qvSZP --struc struc.xyz --bfile q-vszps_basis --efile q-vszp_ecp --cm extonlyq --v --outname orca --conv TightSCF --defgrid 3 --d4par 1.0 1.1710 0.3478 5.5828 1.50
 ```
 Here, the `--cm extonlyq` option instructs the code to read the external charge file named `ext.charges` (see previous step) <br>
 
 An alternative input generation using the CEH charge model (does not required an external charge file):
 ```
-qvSZP --struc struc.xyz --bfile q-vszps --efile ecpq --cm ceh --v --outname orca --conv TightSCF --defgrid 3
+qvSZP --struc struc.xyz --bfile q-vszps_basis --efile q-vszp_ecp --cm ceh --v --outname orca --conv TightSCF --defgrid 3
 ```
 
 `--bfile` and `--efile` provide the locations of the basis set and ecp files respectively (in TURBOMOLE format) <br>
