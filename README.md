@@ -1,7 +1,7 @@
 # qvSZPs
 Repository providing the basis set files for the q-vSZPs basis set and the non-adaptive q<sup>avg</sup>-vSZPs variant.
 The basis set files are located in `q-vSZPs_basis/` with the q-vSZPs being provided in TURBOMOLE format together witht the required ECP file. <br>
-The q<sup>avg</sup>-vSZPs basis set is provided in TURBOMOLE and ORCA format.
+The q<sup>avg</sup>-vSZPs basis set is provided in TURBOMOLE, ORCA, and CP2K format.
 
 ## Automatic input file generation for the q-vSZPs
 
